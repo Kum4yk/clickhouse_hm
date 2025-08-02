@@ -21,7 +21,7 @@ FROM
 	sandbox.43342120_titanic
 WHERE 
 	endsWith(short_name, 'off') 
-	OR 	endsWith(short_name, 'eff')
+	OR endsWith(short_name, 'eff')
 ORDER BY 
 	Name ASC
 LIMIT 1
